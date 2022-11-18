@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 
 public class myFileReader {
     public static void main(String[] args) throws IOException {
-        Path path = Paths.get("C:\\hello.txt");
+        Path path = Paths.get("C:\\SoftwareDevelopment\\Java\\BaseUtilities\\hello.txt");
         Charset encoding;
         Charset cs=Charset.forName("UTF-8");
         String content = Files.readString(path, cs);
